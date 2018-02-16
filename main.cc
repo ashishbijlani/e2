@@ -32,11 +32,13 @@ int main() {
     //       than what can be achieved with a single thread
     //      bonus points will be rewarded for fastest times
 
-	async_result_t res = parallel_acc(myVec);
+	////////// code added - start - ///////////
+	async_result_t res = async_calc(myVec);
 	sum = res.sum;
 	minVal = res.min;
 	maxVal = res.max;
 	average = static_cast<double>(sum)/myVec.size();
+	///////// code added - end - /////////////
 
     auto end = sc::high_resolution_clock::now();
 

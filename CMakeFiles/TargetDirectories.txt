@@ -1,3 +1,0 @@
-/Volumes/Android/ECE6122/e2/CMakeFiles/rebuild_cache.dir
-/Volumes/Android/ECE6122/e2/CMakeFiles/edit_cache.dir
-/Volumes/Android/ECE6122/e2/CMakeFiles/e2.dir
