@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Android/ECE6122/e2/c2.cc
+
+/Volumes/Android/ECE6122/e2/e2.h
+numeric
+-
+future
+-
+
+/Volumes/Android/ECE6122/e2/main.cc
+iostream
+-
+vector
+-
+algorithm
+-
+chrono
+-
+random
+-
+e2.h
+/Volumes/Android/ECE6122/e2/e2.h
+
